@@ -146,14 +146,15 @@ body {
 
 .dev {
   position: relative;
-  bottom: 600px;
-  left: 650px;
+  bottom: 37.5em;
+  left: 40.625em;
+  border-radius: 10px;
 }
 header h2 {
   position: relative;
-  bottom: 500px;
-  left: 50px;
-  font-size: 90px;
+  bottom: 31.25em;
+  left: 3.125em;
+  font-size: 5.625em;
   font-weight: bold;
   color: orange;
   text-shadow: 2px 2px 2px rgb(68, 67, 67);
@@ -167,23 +168,23 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 70px;
+  height: 4.375em;
   background-color: black;
   position: relative;
-  bottom: 390px;
+  bottom: 24.375em;
 }
 
 nav a {
   text-decoration: none;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 22px;
-  padding: 15px;
+  font-size: 1.375em;
+  padding: 0.9375em;
 }
 
 .nav1,
 .nav2 {
-  padding: 25px;
+  padding: 1.5625em;
 }
 
 /* section 1 */
@@ -194,22 +195,22 @@ nav a {
   margin: 0 auto;
   background-color: rgba(233, 229, 229, 0.514);
   position: relative;
-  bottom: 300px;
- 
+  bottom: 18.75em;
+  border-radius: 10px;
 }
 
 .sec1-content div:nth-child(odd) {
   border: 3px solid lightskyblue;
   border-radius: 25px;
-  width: 450px;
-  height: 200px;
-  padding: 20px;
+  width: 28.125em;
+  height: 12.5em;
+  padding: 1.25em;
   margin: 0 auto;
   position: relative;
-  right: 300px;
-  top: 50px;
-  margin-bottom: 100px;
-  margin-top: 10px;
+  right: 18.75em;
+  top: 3.125em;
+  margin-bottom: 6.25em;
+  margin-top: 0.625em;
 }
 .sec1-content h3 {
   font-size: 25px;
@@ -218,42 +219,42 @@ nav a {
 }
 .sec1-content div:nth-child(even) {
   border: 3px solid orange;
-  border-radius: 25px;
-  width: 450px;
-  height: 200px;
-  padding: 20px;
+  border-radius: 1.5625em;
+  width: 28.125em;
+  height: 12.5em;
+  padding: 1.25em;
   margin: 0 auto;
   float: right;
   position: relative;
-  bottom: 200px;
-  margin-right: 30px;
+  bottom: 12.5em;
+  margin-right: 1.875em;
 }
 
 /* vertical line */
 
 .vl {
   border-left: 5px dashed rgb(180, 175, 175);
-  height: 700px;
+  height: 44.75em;
   position: relative;
-  bottom: 650px;
-  left: 630px;
+  bottom: 40em;
+  left: 39.375em;
 }
 
 .dot1,
 .dot2 {
-  height: 40px;
-  width: 40px;
+  height: 2.5em;
+  width: 2.5em;
   background-color: paleturquoise;
   border-radius: 50%;
   display: block;
   position: relative;
-  bottom: 800px;
+  bottom: 50em;
 }
 
 .dot3,
 .dot4 {
-  height: 40px;
-  width: 40px;
+  height: 2.5em;
+  width: 2.5em;
   background-color: orangered;
   border-radius: 50%;
   display: block;
@@ -294,6 +295,7 @@ nav a {
   display: block;
   position: relative;
   bottom: 220px;
+  border-radius: 10px;
 }
 
 .sec2 .one {
@@ -304,6 +306,7 @@ nav a {
   position: relative;
   top: 20px;
   left: 20px;
+  border-radius: 20px;
 }
 
 .two {
@@ -314,6 +317,7 @@ nav a {
   position: absolute;
   top: 100px;
   left: 350px;
+  border-radius: 20px;
 }
 
 .three {
@@ -323,15 +327,16 @@ nav a {
   position: absolute;
   top: 180px;
   left: 730px;
+  border-radius: 20px;
 }
 
 .sec2 h3 {
   font-weight: bold;
-  font-size: 30px;
-  padding: 15px;
+  font-size: 1.875em;
+  padding: 0.9375em;
 }
 .sec2 p {
-  padding: 15px;
+  padding: 0.9375em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -347,7 +352,8 @@ nav a {
   border: 5px solid orangered;
   background-color: lemonchiffon;
   position: relative;
-  bottom: 9px;
+  bottom: 10px;
+  border-radius: 10px;
 }
 
 /* footer */
